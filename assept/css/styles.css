@@ -1,0 +1,140 @@
+html{
+  overflow: hidden;
+
+}
+section{
+    width: 100%;
+    height:100vh;
+
+    background-position: center;
+    background-size: cover;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/2560x1080_1503567_[www.ArtFile.ru].jpg);
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  width: 420px;
+  height: 450px;
+  background-color: #0e2429;
+  border-radius: 1vh;
+}
+
+h1,h2,h3,p{
+  text-transform: capitalize;
+  font-family: sans-serif, Courier, ;
+padding-top:10px ;
+}
+h1{
+  font-size: 25px;
+  margin-top: 15px;
+  color: #49818d;
+margin-top: 20px;
+}
+h2{
+  font-size: 22px;
+  color: rgb(5, 135, 187);
+  margin-top: -25px;
+  font-weight: normal;
+}
+h3{
+  color: #63787c;
+  margin-top: -30px;
+  font-weight: normal;
+}
+p{
+  font-size: 27px;
+  color: rgb(133, 133, 133);
+  margin-top: -10px;
+  font-weight: normal;
+}
+hr{
+  margin-top: 5px;
+  width: 80%;
+}
+
+.user-image{
+width: 150px;
+height: 150px;
+border-radius: 50%;  
+margin-top:-55px ;
+border: 2px solid #78a2aa;
+box-shadow:0 0 30px rgba(142, 255, 255, 0.3);
+object-fit: cover;
+}
+
+.followers {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.followers-icon {
+  width: 70px;
+  height: 70px;
+
+
+  margin-top:-30px ;
+
+
+  border-radius: 50%;
+  border: 1px solid rgb(7, 155, 135);
+  box-shadow: 0 0 50px rgba(8, 202, 202, 0.5);
+  object-fit: cover;
+}
+.followers-icon-add{
+  width: 70px;
+  height: 70px;
+
+
+  margin-top:-30px ;
+
+
+  border: 0.1% solid white;
+  border-radius: 50%;
+
+  box-shadow: 0 0 50px rgba(8, 202, 202, 0.1);
+  object-fit: cover;
+
+}
+
+.social-network{
+  display: flex;
+  margin-top: 30px;
+  
+}
+
+
+
+a{
+  width: 20px;
+  height: 50px;
+  border-left: none;
+  padding-left: 50px;
+
+
+}
+a:nth-child(1n+1){
+  background: no-repeat url(/images/facebook.svg);
+  box-shadow: inset -1px 0 0 darkgreen;
+}
+a:nth-child(2){
+  background: no-repeat url(/images/twitter.svg);
+}
+a:nth-child(3){
+  background: no-repeat url(/images/instagram.svg);
+}
+a:nth-child(4){
+  background: no-repeat url(/images/telegram.svg);
+}
